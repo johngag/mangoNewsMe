@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin id="com.cftips.mangoNewsMe" name="mangoNewsMe" version="1.0" provider-name="cftips" class="mangoNewsMe.Handler">
+	<description><![CDATA[ mangoNewsMe is a plugin that displays Mango Blog news in a Pod under the admin Overview.
+						<br/>
+						<br/>
+						Written by <a href="http://cftips.net">John Gag</a><br/>]]></description>
+
+	<requiresVersion match="greaterOrEqual">1.3</requiresVersion>
+    <listens>
+  		<event name="dashboardPod" type="synch" priority="1" />
+	</listens>
+</plugin>
